@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book isbn="978-3-16-148410-0" category="technical">
+        <title lang="en">Everyday Italian</title>
+        <author>Giada De Laurentiis</author>
+    </book>
+    <book isbn="978-3-16-148410-1" category="technical">
+        <title lang="en">The Art of Statistics: How to Learn from Data</title>
+        <author>David Spiegelhalter</author>
+    </book>
+    <book isbn="978-4-16-148410-0" category="cookery">
+        <title lang="en">To Asia, With Love </title>
+        <author>Hetty McKinnon</author>
+    </book>
+    <book isbn="978-4-16-148410-0" category="cookery">
+        <title lang="en">A Modern Cook’s Year</title>
+        <author>Anna Jones</author>
+    </book>
+</library>
