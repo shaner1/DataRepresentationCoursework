@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+        <title>Car Viewer</title>
+    </head>
+    <body>
+        <h1>Car</h1>
+        <form>
+            <button>Create</button>
+            <br>
+            <h2>All Cars</h2>
+            <table class="table">
+                <tr>
+                    <th>Reg</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>12345</td>
+                    <td>Ford</td>
+                    <td>Fiesta</td>
+                    <td>150</td>
+                    <td><button>Create</button></td>
+                    <td><button>Update</button></td>
+                </tr>
+            </table>
+            <form>
+                <h2>Create or Update a Car</h2>
+                Reg<input type="text"><br>
+                Make<select>
+                    <option value="Ford">Ford</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Renault">Renault</option>
+                </select><br>
+                Model<input type="text"/><br>
+                Price<input type="number"/><br>
+                <button>Create</button>
+                <button>Update</button>
+            </form>
+        </form>
+    </body>
+</html>
